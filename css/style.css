@@ -1,0 +1,312 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+/* Global CSS */
+
+.container {
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.col-lg-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+    float: left;
+
+}
+
+.col-lg-9 {
+    width: 75%;
+    float: left;
+}
+
+  .col-lg-12 {
+      width: 100%;
+      float: left;        
+  }
+
+/* Header Code */
+
+.header {
+    width: 100%;
+    float: left;
+    border: 1px solid #777;
+}
+.logo {
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.logo img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.header .navbar {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.header .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    color: #1f1f1f;
+}
+
+
+.header .navbar li a {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #1f1f1f;
+    font-weight: 700;
+    margin: 0px 0px 0px 5px;
+}
+
+.header .navbar li a:hover {
+    color: #777;
+}
+
+.header .navbar li:last-child {
+    background: #ff6062;
+    padding: 10px; 
+    letter-spacing: 1px;
+    float: right;
+    margin-top: 1px;
+}
+
+.header .navbar li:last-child a:hover {
+    color: #fff;
+}
+
+
+.content {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+
+.desc {
+    width: 60%;
+    float: left;
+
+}
+
+.desc h2 {
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.desc p {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #777;
+    margin: 20px 0px  20px 0px;
+}
+
+.image {
+    width: 40%;
+    float: left;
+}
+
+.image .img {
+    width: 250px;
+    height: auto;
+}
+
+/* End of Content Section */
+
+.demo-section {
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+
+.inner-online {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.inner-online h1 {
+    font-size: 66px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #1f1f1f;
+    margin: 0px 0px 25px;
+}
+
+.inner-online p {
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: italic;
+    color: #777;
+    margin: 0px 0px 35px;
+}
+
+.col-lg-12 . {
+    width: 50%;
+    display: flex;
+
+}
+
+/* Start of Feature Section*/
+
+
+/* Start of feature Section */
+
+.feature {
+    width: 100%;
+    float: left;
+    padding: 40px 0px 80px;
+}
+
+.inner-feature {
+    width: 80%;
+    float: left;
+    padding: 0 30px;
+    margin: 10px;
+}
+
+.inner-feature h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #3F3d56;
+    margin: 10px;
+
+}
+
+.inner-feature p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 50px;
+
+}
+
+.inner-feature img {
+    width: 20%;
+    float: center;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.cl1 {
+    width: 80%;
+    background: #d3d3d3;
+    text-align: center;
+
+}
+
+
+.cl2 {
+    background: #d3d3d3;
+    text-align: center;
+}
+
+.cl3 {
+    background: #d3d3d3;
+    text-align: center;
+}
+
+.cl4 {
+    width: 80%;
+    background: #d3d3d3;
+    text-align: center;
+}
+
+.cl5 {
+    background: #d3d3d3;
+    text-align: center;
+    
+}
+
+.cl6 {
+    background: #d3d3d3;
+    text-align: center;
+}
+
+
+/* End of feature Section */
+
+/* Start of footer Section */
+
+.footer {
+    width: 100%;
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #28263d;
+    text-align: left;
+}
+
+.footer h2 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+
+.btn {
+    background: #ff6062;
+    margin-top: 20px;
+    padding: 10px;
+    width: 20%;
+    margin-right: 50%;
+    margin-left: 40%;
+    border-color: #ff6062;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+
+.flogo {
+    width: 5%;
+    margin: 20px 1200px;
+}
+
+.col-lg-3 .p1 {
+    width: 100%;
+}
